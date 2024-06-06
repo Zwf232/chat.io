@@ -1,0 +1,32 @@
+
+        .index{
+            height: 70px;
+            display: flex;
+            background-color: gray;
+           
+        }    
+        .main{
+            height:1000px;
+            background-color: greenyellow;
+            background-image: url(背景图.jpg);
+            background-size: cover;
+            
+        }
+        .bottom{
+            height: 50px;
+            background-color: gray;
+            font-size: 20px;
+            text-align: center;
+        }
+        *{
+        
+            padding:0 auto;
+             margin:0 auto;
+      
+                list-style: none;
+            }
+        .iconfont{
+            font-size: 30px;
+            color: black;
+            text-decoration:none;
+        }
