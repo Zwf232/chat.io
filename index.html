@@ -69,10 +69,22 @@
 
 
 <!-- -----------------------------------------头 中 -->
-<div class="main"></div>
+<div class="main">
+    <span class="time"></span>
+</div>
 <!-- -----------------------------------------中 底-->
 <div class="bottom">----2024 Create By Zwf ----</div>
 <!-- -----------------------------------------底-->
+<script>
+    function getMyDate(){
 
+const date=new Date();
+return `${date.getHours()}时${date.getMinutes()}分${date.getSeconds()}秒`;
+
+}
+
+const time=document.querySelector('.time');
+time.innerHTML=getMyDate();
+</script>
 </body>
 </html>
